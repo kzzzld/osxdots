@@ -1,2 +1,3 @@
 .DS_Store
 config/osx/.config/opencode/service.json
+config/osx/.config/zellij/*bak*
