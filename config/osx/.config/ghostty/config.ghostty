@@ -1,0 +1,7 @@
+font-family = Iosevka Nerd Font
+font-size = 15
+theme = Catppuccin Mocha
+window-new-tab-position = end
+window-padding-x = 10
+window-padding-y = 10
+window-save-state = never
