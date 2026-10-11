@@ -1,0 +1,152 @@
+{
+  "version": 1,
+  "fields": {
+    "lightThemeId": {
+      "updatedAt": 1791729522452,
+      "value": "openchamber-light",
+      "surfaces": {
+        "desktop": {
+          "value": "catppuccin-light",
+          "updatedAt": 1791729577817
+        },
+        "mobile": {
+          "value": "catppuccin-light",
+          "updatedAt": 1791729895465
+        }
+      }
+    },
+    "darkThemeId": {
+      "updatedAt": 1791729522452,
+      "value": "openchamber-dark",
+      "surfaces": {
+        "desktop": {
+          "value": "catppuccin-dark",
+          "updatedAt": 1791729580067
+        },
+        "mobile": {
+          "value": "catppuccin-dark",
+          "updatedAt": 1791729898040
+        }
+      }
+    },
+    "notifyOnSubtasks": {
+      "updatedAt": 1791729522452,
+      "value": true
+    },
+    "notifyOnCompletion": {
+      "updatedAt": 1791729522452,
+      "value": true
+    },
+    "notifyOnError": {
+      "updatedAt": 1791729522452,
+      "value": true
+    },
+    "notifyOnQuestion": {
+      "updatedAt": 1791729522452,
+      "value": true
+    },
+    "notificationTemplates": {
+      "updatedAt": 1791729522452,
+      "value": {
+        "completion": {
+          "title": "{agent_name} is ready",
+          "message": "{model_name} completed the task"
+        },
+        "error": {
+          "title": "Tool error",
+          "message": "{last_message}"
+        },
+        "question": {
+          "title": "Input needed",
+          "message": "{last_message}"
+        },
+        "subtask": {
+          "title": "{agent_name} is ready",
+          "message": "{model_name} completed the task"
+        }
+      }
+    },
+    "favoriteModels": {
+      "updatedAt": 1791729551709,
+      "value": []
+    },
+    "recentModels": {
+      "updatedAt": 1791729551709,
+      "value": [
+        {
+          "providerID": "openrouter",
+          "modelID": "deepseek/deepseek-v4.1-flash"
+        }
+      ]
+    },
+    "hiddenModels": {
+      "updatedAt": 1791729551709,
+      "value": []
+    },
+    "collapsedModelProviders": {
+      "updatedAt": 1791729551709,
+      "value": []
+    },
+    "customProviderIcons": {
+      "updatedAt": 1791729551709,
+      "value": {}
+    },
+    "recentAgents": {
+      "updatedAt": 1791729551709,
+      "value": []
+    },
+    "favoriteAgents": {
+      "updatedAt": 1791729551709,
+      "value": []
+    },
+    "recentEfforts": {
+      "updatedAt": 1791729932901,
+      "value": {
+        "openrouter/deepseek/deepseek-v4.1-flash": [
+          "default",
+          "low"
+        ]
+      }
+    },
+    "lastSelectedModel": {
+      "updatedAt": 1791729557053,
+      "value": "openrouter/deepseek/deepseek-v4.1-flash"
+    },
+    "themeVariant": {
+      "updatedAt": 1791729577817,
+      "value": "dark"
+    },
+    "timeFormatPreference": {
+      "updatedAt": 1791729590754,
+      "value": "24h"
+    },
+    "weekStartPreference": {
+      "updatedAt": 1791729593260,
+      "value": "monday"
+    },
+    "monoFont": {
+      "updatedAt": 1791729608480,
+      "value": "custom"
+    },
+    "uiFont": {
+      "updatedAt": 1791729601802,
+      "value": "custom"
+    },
+    "customUiFont": {
+      "updatedAt": 1791729605539,
+      "value": "Iosevka Nerd Font"
+    },
+    "customMonoFont": {
+      "updatedAt": 1791729609204,
+      "value": "Iosevka Nerd Font"
+    },
+    "chatRenderMode": {
+      "updatedAt": 1791729745397,
+      "value": "live"
+    },
+    "userMessageRenderingMode": {
+      "updatedAt": 1791729748098,
+      "value": "markdown"
+    }
+  }
+}
