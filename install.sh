@@ -3,8 +3,8 @@
 # Brew
 if ! command -v brew >/dev/null; then
   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-  echo >> /Users/kzzzl/.zprofile
-  echo 'eval "$(/opt/homebrew/bin/brew shellenv zsh)"' >> /Users/kzzzl/.zprofile
+  echo >> $HOME/.zprofile
+  echo 'eval "$(/opt/homebrew/bin/brew shellenv zsh)"' >> $HOME/.zprofile
   eval "$(/opt/homebrew/bin/brew shellenv zsh)"
 fi
 brew bundle
