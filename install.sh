@@ -10,6 +10,7 @@ fi
 brew bundle
 
 # Stow
+mkdir ~/.config || true
 stow -d config osx -t "$HOME"
 
 # Trackpad
