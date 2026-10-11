@@ -1,0 +1,50 @@
+[user]
+	name = kzzzl
+	email = kzzzl@kzzzl.xyz
+	signingkey = FB8CEF6F1B8BB36AAAFBD19F03D93A23E84B5716
+
+[commit]
+	gpgsign = true
+
+[tag]
+	gpgsign = true
+
+[gpg]
+	format = openpgp
+
+[core]
+	editor = nvim
+	autocrlf = input
+	precomposeunicode = true
+
+[init]
+	defaultBranch = main
+
+[pull]
+	rebase = true
+
+[push]
+	autoSetupRemote = true
+
+[fetch]
+	prune = true
+
+[rebase]
+	autosquash = true
+
+[merge]
+	conflictstyle = zdiff3
+
+[diff]
+	algorithm = histogram
+	colorMoved = zebra
+
+[color]
+	ui = auto
+
+[alias]
+	st = status -sb
+	co = checkout
+	br = branch
+	lg = log --oneline --graph --decorate
+	last = log -1 HEAD
