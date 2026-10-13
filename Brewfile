@@ -1,3 +1,5 @@
+# Console Matrix
+brew "cmatrix"
 # Modern, maintained replacement for ls
 brew "eza"
 # GNU Privacy Guard (OpenPGP)
@@ -6,6 +8,8 @@ brew "gnupg"
 brew "lazygit"
 # Ambitious Vim-fork focused on extensibility and agility
 brew "neovim"
+# Open-source, cross-platform JavaScript runtime environment
+brew "node"
 # AI coding agent, built for the terminal
 brew "opencode"
 # Pinentry for GPG on Mac
@@ -24,12 +28,34 @@ brew "zsh-autosuggestions"
 brew "zsh-fast-syntax-highlighting"
 # ZSH plugin that reminds you to use existing aliases for commands you just typed
 brew "zsh-you-should-use"
+# Display management tool
+cask "betterdisplay"
 # Command-line tool to set the desktop picture
 cask "desktoppr"
+# Voice and text chat software
+cask "discord"
 cask "font-iosevka-nerd-font"
 # Terminal emulator that uses platform-native UI and GPU acceleration
 cask "ghostty"
+# 2D and 3D game engine
+cask "godot"
 # Chromium-based web browser
 cask "helium-browser"
 # GPU-based terminal emulator
 cask "kitty"
+# Open-source cross-platform alternative to AirDrop
+cask "localsend"
+# Mouse utility to add gesture functions and smooth scrolling to 3rd party mice
+cask "mac-mouse-fix"
+# XMPP chat client
+cask "monal"
+# Desktop and web interface for OpenCode AI agent
+cask "openchamber"
+# Instant messaging application focusing on security
+cask "signal"
+# Video game digital distribution service
+cask "steam"
+# Customizable email client
+cask "thunderbird"
+# Native desktop client for WhatsApp
+cask "whatsapp"
