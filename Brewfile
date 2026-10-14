@@ -2,6 +2,10 @@
 brew "cmatrix"
 # Modern, maintained replacement for ls
 brew "eza"
+# Simple, fast and user-friendly alternative to find
+brew "fd"
+# GNU compiler collection
+brew "gcc"
 # GNU Privacy Guard (OpenPGP)
 brew "gnupg"
 # Simple terminal UI for git commands
@@ -10,6 +14,8 @@ brew "lazygit"
 brew "neovim"
 # Open-source, cross-platform JavaScript runtime environment
 brew "node"
+# Search tool like grep and The Silver Searcher
+brew "ripgrep"
 # AI coding agent, built for the terminal
 brew "opencode"
 # Pinentry for GPG on Mac
@@ -18,6 +24,8 @@ brew "pinentry-mac"
 brew "starship"
 # Organize software neatly under a single directory tree (e.g. /usr/local)
 brew "stow"
+# Parser generator tool
+brew "tree-sitter-cli"
 # Pluggable terminal workspace, with terminal multiplexer as the base feature
 brew "zellij"
 # Real-time type-ahead completion for Zsh
