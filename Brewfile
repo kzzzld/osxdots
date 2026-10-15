@@ -57,6 +57,8 @@ cask "localsend"
 cask "mac-mouse-fix"
 # XMPP chat client
 cask "monal"
+# App to write, plan, collaborate, and get organised
+cask "notion"
 # Desktop and web interface for OpenCode AI agent
 cask "openchamber"
 # Instant messaging application focusing on security
