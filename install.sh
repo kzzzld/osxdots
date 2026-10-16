@@ -13,6 +13,9 @@ brew bundle
 mkdir ~/.config 2>/dev/null || true
 stow -d config osx -t "$HOME"
 
+# Create Hushlogin File
+[ ! -f "~/.hushlogin" ] && touch ~/.hushlogin
+
 # Trackpad
 defaults write -g com.apple.swipescrolldirection -boolean NO
 
