@@ -11,6 +11,8 @@ after-startup-command = [
   'exec-and-forget borders active_color=0xff89b4fa inactive_color=0xff1e1e2e width=5.0'
 ]
 
+focus-follows-mouse.enabled = true
+
 gaps.inner.horizontal = 15
 gaps.inner.vertical =   15
 gaps.outer.left =       15
