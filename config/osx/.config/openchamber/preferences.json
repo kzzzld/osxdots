@@ -92,8 +92,11 @@
       "value": {}
     },
     "recentAgents": {
-      "updatedAt": 1791729551709,
-      "value": []
+      "updatedAt": 1792099471497,
+      "value": [
+        "build",
+        "plan"
+      ]
     },
     "favoriteAgents": {
       "updatedAt": 1791729551709,

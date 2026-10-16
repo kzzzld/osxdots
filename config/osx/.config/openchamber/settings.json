@@ -5,9 +5,9 @@
     "bgLight": "#eff1f5",
     "fgLight": "#4c4f69",
     "bgDark": "#1e1e2e",
-    "fgDark": "#bdc5df"
+    "fgDark": "#cdd6f4"
   },
-  "lastDirectory": "/Users/kzzzl/Projects/geography-game",
+  "lastDirectory": "/Users/kzzzl/Projects/LibreScope",
   "homeDirectory": "/Users/kzzzl",
   "projects": [
     {
@@ -15,7 +15,7 @@
       "path": "/Users/kzzzl",
       "addedAt": 1791729523139,
       "lastOpenedAt": 1791729523139,
-      "sidebarCollapsed": false
+      "sidebarCollapsed": true
     },
     {
       "id": "path_L1VzZXJzL2t6enpsL1Byb2plY3RzL2dlb2dyYXBoeS1nYW1l",
@@ -28,13 +28,23 @@
       "defaultVariant": "low",
       "addedAt": 1791730087596,
       "lastOpenedAt": 1791730087597,
-      "iconBackground": null
+      "iconBackground": null,
+      "sidebarCollapsed": true
+    },
+    {
+      "id": "path_L1VzZXJzL2t6enpsL1Byb2plY3RzL0xpYnJlU2NvcGU",
+      "path": "/Users/kzzzl/Projects/LibreScope",
+      "label": "LibreScope",
+      "color": "#8e4ec6",
+      "addedAt": 1792099096280,
+      "lastOpenedAt": 1792099096281,
+      "sidebarCollapsed": false
     }
   ],
-  "activeProjectId": "path_L1VzZXJzL2t6enpsL1Byb2plY3RzL2dlb2dyYXBoeS1nYW1l",
+  "activeProjectId": "path_L1VzZXJzL2t6enpsL1Byb2plY3RzL0xpYnJlU2NvcGU",
   "desktopWindowState": {
-    "x": 7,
-    "y": 51,
+    "x": 8,
+    "y": 50,
     "width": 1695,
     "height": 1054,
     "maximized": false,
@@ -81,7 +91,10 @@
   "hiddenModels": [],
   "collapsedModelProviders": [],
   "customProviderIcons": {},
-  "recentAgents": [],
+  "recentAgents": [
+    "build",
+    "plan"
+  ],
   "favoriteAgents": [],
   "recentEfforts": {
     "openrouter/deepseek/deepseek-v4.1-flash": [
