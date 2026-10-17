@@ -31,6 +31,8 @@ brew "starship"
 brew "stow"
 # Parser generator tool
 brew "tree-sitter-cli"
+# Internet file retriever
+brew "wget"
 # Pluggable terminal workspace, with terminal multiplexer as the base feature
 brew "zellij"
 # Real-time type-ahead completion for Zsh
@@ -56,14 +58,8 @@ cask "discord"
 cask "font-iosevka-nerd-font"
 # Terminal emulator that uses platform-native UI and GPU acceleration
 cask "ghostty"
-# 2D and 3D game engine
-cask "godot"
 # Web browser
 cask "google-chrome"
-# Chromium-based web browser
-cask "helium-browser"
-# GPU-based terminal emulator
-cask "kitty"
 # Open-source cross-platform alternative to AirDrop
 cask "localsend"
 # Mouse utility to add gesture functions and smooth scrolling to 3rd party mice
@@ -82,3 +78,5 @@ cask "thunderbird"
 cask "utm"
 # Native desktop client for WhatsApp
 cask "whatsapp"
+# Gecko based web browser
+cask "zen"
