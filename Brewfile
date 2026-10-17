@@ -1,3 +1,6 @@
+tap "felixkratz/formulae", "https://github.com/FelixKratz/homebrew-formulae", trusted: true
+tap "nikitabobko/tap"
+tap "tigase/tigase"
 # Console Matrix
 brew "cmatrix"
 # Modern, maintained replacement for ls
@@ -8,6 +11,8 @@ brew "fd"
 brew "gcc"
 # GNU Privacy Guard (OpenPGP)
 brew "gnupg"
+# Handy way to save and run project-specific commands
+brew "just"
 # Simple terminal UI for git commands
 brew "lazygit"
 # Ambitious Vim-fork focused on extensibility and agility
@@ -36,6 +41,12 @@ brew "zsh-autosuggestions"
 brew "zsh-fast-syntax-highlighting"
 # ZSH plugin that reminds you to use existing aliases for commands you just typed
 brew "zsh-you-should-use"
+# A window border system for macOS
+brew "felixkratz/formulae/borders"
+# AeroSpace is an i3-like tiling window manager for macOS
+cask "nikitabobko/tap/aerospace", trusted: true
+# XMPP client based on TigaseSwift library
+cask "tigase/tigase/beagleim", trusted: true
 # Display management tool
 cask "betterdisplay"
 # Command-line tool to set the desktop picture
@@ -47,6 +58,8 @@ cask "font-iosevka-nerd-font"
 cask "ghostty"
 # 2D and 3D game engine
 cask "godot"
+# Web browser
+cask "google-chrome"
 # Chromium-based web browser
 cask "helium-browser"
 # GPU-based terminal emulator
@@ -67,5 +80,7 @@ cask "signal"
 cask "steam"
 # Customizable email client
 cask "thunderbird"
+# Virtual machines UI using QEMU
+cask "utm"
 # Native desktop client for WhatsApp
 cask "whatsapp"
