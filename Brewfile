@@ -11,6 +11,8 @@ brew "fd"
 brew "gcc"
 # GNU Privacy Guard (OpenPGP)
 brew "gnupg"
+# Post-modern modal text editor
+brew "helix"
 # Handy way to save and run project-specific commands
 brew "just"
 # Simple terminal UI for git commands
