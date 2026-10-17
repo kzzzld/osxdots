@@ -8,3 +8,4 @@ window-save-state = never
 macos-option-as-alt = left
 macos-titlebar-style = hidden
 background-opacity = 0.9
+quit-after-last-window-closed = true
