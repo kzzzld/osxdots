@@ -16,6 +16,13 @@ stow -d config osx -t "$HOME"
 # Create Hushlogin File
 [ ! -f "~/.hushlogin" ] && touch ~/.hushlogin
 
+# Settings for macOS 26
+osxVersion=$(sw_vers -productVersion)
+if [[ "$osxVersion" == 26* ]]; then
+  defaults write -g NSConvolutionOverride1 -float 20
+  defaults write -g NSSplitViewItemSidebarDefaultsToFloatingAppearance -bool false
+fi
+
 # Trackpad
 defaults write -g com.apple.swipescrolldirection -boolean NO
 
