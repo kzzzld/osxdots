@@ -13,6 +13,8 @@ brew "gcc"
 brew "gnupg"
 # Post-modern modal text editor
 brew "helix"
+# Configurable static site generator
+brew "hugo"
 # Handy way to save and run project-specific commands
 brew "just"
 # Simple terminal UI for git commands
