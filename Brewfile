@@ -68,8 +68,6 @@ cask "kitty"
 cask "localsend"
 # Mouse utility to add gesture functions and smooth scrolling to 3rd party mice
 cask "mac-mouse-fix"
-# XMPP chat client
-cask "monal"
 # App to write, plan, collaborate, and get organised
 cask "notion"
 # Desktop and web interface for OpenCode AI agent
