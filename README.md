@@ -13,7 +13,7 @@ and installed via [Homebrew](https://brew.sh). Tested on macOS Sequoia.
 Clone the repo, then run the bootstrap script:
 
 ```sh
-git clone ssh://forgejo@git.kzzzl.xyz/kzzzl/macos_dotfiles.git ~/Dotfiles
+git clone git@github.com:kzzzld/osxdots.git ~/Dotfiles
 cd ~/Dotfiles
 ./install.sh
 ```
