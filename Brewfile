@@ -1,3 +1,4 @@
+tap "can1357/tap"
 tap "felixkratz/formulae", "https://github.com/FelixKratz/homebrew-formulae", trusted: true
 tap "nikitabobko/tap"
 tap "tigase/tigase"
@@ -5,16 +6,22 @@ tap "tigase/tigase"
 brew "cmatrix"
 # Modern, maintained replacement for ls
 brew "eza"
+# Like neofetch, but much faster because written mostly in C
+brew "fastfetch"
 # Simple, fast and user-friendly alternative to find
 brew "fd"
 # GNU compiler collection
 brew "gcc"
+# GitHub command-line tool
+brew "gh"
 # GNU Privacy Guard (OpenPGP)
 brew "gnupg"
 # Post-modern modal text editor
 brew "helix"
 # Configurable static site generator
 brew "hugo"
+# Lightweight and flexible command-line JSON processor
+brew "jq"
 # Handy way to save and run project-specific commands
 brew "just"
 # Simple terminal UI for git commands
@@ -27,8 +34,12 @@ brew "node"
 brew "ripgrep"
 # AI coding agent, built for the terminal
 brew "opencode"
+# AI agent toolkit
+brew "pi-coding-agent"
 # Pinentry for GPG on Mac
 brew "pinentry-mac"
+# Simple and easy-to-use library to learn videogames programming
+brew "raylib"
 # Cross-shell prompt for astronauts
 brew "starship"
 # Organize software neatly under a single directory tree (e.g. /usr/local)
@@ -47,6 +58,8 @@ brew "zsh-autosuggestions"
 brew "zsh-fast-syntax-highlighting"
 # ZSH plugin that reminds you to use existing aliases for commands you just typed
 brew "zsh-you-should-use"
+# Coding agent with the IDE wired in
+brew "can1357/tap/omp", trusted: true
 # A window border system for macOS
 brew "felixkratz/formulae/borders"
 # AeroSpace is an i3-like tiling window manager for macOS
