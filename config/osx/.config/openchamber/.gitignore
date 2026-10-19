@@ -1,9 +1,0 @@
-# Ignore everything by default.
-*
-
-# Keep the settings I have chosen.
-!settings.json
-!preferences.json
-
-# Keep this file so the rules above travel with the repo.
-!.gitignore

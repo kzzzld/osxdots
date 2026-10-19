@@ -70,8 +70,6 @@ cask "localsend"
 cask "mac-mouse-fix"
 # App to write, plan, collaborate, and get organised
 cask "notion"
-# Desktop and web interface for OpenCode AI agent
-cask "openchamber"
 # Instant messaging application focusing on security
 cask "signal"
 # Video game digital distribution service
