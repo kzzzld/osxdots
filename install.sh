@@ -12,6 +12,7 @@ brew bundle
 # Stow
 mkdir ~/.config 2>/dev/null || true
 stow -d config osx -t "$HOME"
+stow -d config common -t "$HOME"
 
 # Create Hushlogin File
 [ ! -f "~/.hushlogin" ] && touch ~/.hushlogin
