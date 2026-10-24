@@ -34,8 +34,6 @@ brew "node"
 brew "ripgrep"
 # AI coding agent, built for the terminal
 brew "opencode"
-# AI agent toolkit
-brew "pi-coding-agent"
 # Pinentry for GPG on Mac
 brew "pinentry-mac"
 # Simple and easy-to-use library to learn videogames programming
