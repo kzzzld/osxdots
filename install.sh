@@ -20,7 +20,7 @@ stow -d config common -t "$HOME"
 # Settings for macOS 26
 osxVersion=$(sw_vers -productVersion)
 if [[ "$osxVersion" == 26* ]]; then
-  defaults write -g NSConvolutionOverride1 -float 20
+  defaults write -g NSConvolutionOverride1 -float 16
   defaults write -g NSSplitViewItemSidebarDefaultsToFloatingAppearance -bool false
 fi
 
