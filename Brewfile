@@ -66,6 +66,10 @@ cask "nikitabobko/tap/aerospace", trusted: true
 cask "tigase/tigase/beagleim", trusted: true
 # Display management tool
 cask "betterdisplay"
+# OpenAI's official ChatGPT desktop app
+cask "chatgpt"
+# OpenAI's coding agent that runs in your terminal
+cask "codex"
 # Command-line tool to set the desktop picture
 cask "desktoppr"
 # Voice and text chat software
@@ -81,6 +85,8 @@ cask "localsend"
 cask "mac-mouse-fix"
 # App to write, plan, collaborate, and get organised
 cask "notion"
+# Minecraft launcher
+cask "prismlauncher"
 # Instant messaging application focusing on security
 cask "signal"
 # Video game digital distribution service
