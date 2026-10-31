@@ -2,6 +2,8 @@ tap "can1357/tap"
 tap "felixkratz/formulae", "https://github.com/FelixKratz/homebrew-formulae", trusted: true
 tap "nikitabobko/tap"
 tap "tigase/tigase"
+# GNU binary tools for native development
+brew "binutils"
 # Console Matrix
 brew "cmatrix"
 # Modern, maintained replacement for ls
@@ -26,6 +28,14 @@ brew "jq"
 brew "just"
 # Simple terminal UI for git commands
 brew "lazygit"
+# Find what models run on your hardware
+brew "llmfit"
+# Next-gen compiler infrastructure
+brew "llvm"
+# Utility for directing compilation
+brew "make"
+# Netwide Assembler (NASM) is an 80x86 assembler
+brew "nasm"
 # Ambitious Vim-fork focused on extensibility and agility
 brew "neovim"
 # Open-source, cross-platform JavaScript runtime environment
@@ -36,6 +46,8 @@ brew "ripgrep"
 brew "opencode"
 # Pinentry for GPG on Mac
 brew "pinentry-mac"
+# Generic machine emulator and virtualizer
+brew "qemu"
 # Simple and easy-to-use library to learn videogames programming
 brew "raylib"
 # Cross-shell prompt for astronauts
