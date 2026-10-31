@@ -33,7 +33,7 @@ defaults write com.apple.dock "orientation" -string "bottom"
 defaults write com.apple.dock "show-recents" -bool "false" && killall Dock
 
 # Wallpaper
-desktoppr "walls/tokyo_night_catppuccin.jpg"
+desktoppr "walls/nord_hills.png"
 
 # Restart some services
 killall Dock
