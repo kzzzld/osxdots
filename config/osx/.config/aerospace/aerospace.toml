@@ -22,7 +22,8 @@ gaps.outer.right =      15
 
 
 [mode.main.binding]
-    cmd-enter = 'exec-and-forget open -na /Applications/Ghostty.app'
+    # cmd-enter = 'exec-and-forget open -na /Applications/Ghostty.app'
+   cmd-enter = 'exec-and-forget /Applications/WezTerm.app/Contents/MacOS/wezterm start --always-new-process'
 
     cmd-h =         'focus --boundaries-action wrap-around-the-workspace left'
     cmd-j =         'focus --boundaries-action wrap-around-the-workspace down'
