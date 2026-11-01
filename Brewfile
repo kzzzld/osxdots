@@ -44,6 +44,8 @@ brew "node"
 brew "ripgrep"
 # AI coding agent, built for the terminal
 brew "opencode"
+# Development kit for the Java programming language
+brew "openjdk"
 # Pinentry for GPG on Mac
 brew "pinentry-mac"
 # Generic machine emulator and virtualizer
@@ -86,6 +88,8 @@ cask "codex"
 cask "desktoppr"
 # Voice and text chat software
 cask "discord"
+# Web browser
+cask "firefox"
 cask "font-iosevka-nerd-font"
 # Terminal emulator that uses platform-native UI and GPU acceleration
 cask "ghostty"
@@ -107,6 +111,8 @@ cask "steam"
 cask "thunderbird"
 # Virtual machines UI using QEMU
 cask "utm"
+# GPU-accelerated cross-platform terminal emulator and multiplexer
+cask "wezterm"
 # Native desktop client for WhatsApp
 cask "whatsapp"
 # Gecko based web browser
