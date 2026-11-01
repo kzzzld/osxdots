@@ -16,6 +16,8 @@ brew "fd"
 brew "gcc"
 # GitHub command-line tool
 brew "gh"
+# Blazing fast terminal-ui for git written in rust
+brew "gitui"
 # GNU Privacy Guard (OpenPGP)
 brew "gnupg"
 # Post-modern modal text editor
