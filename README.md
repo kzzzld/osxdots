@@ -1,7 +1,7 @@
 # kzzzl's macOS dotfiles
 
 My personal macOS configuration, managed with [GNU Stow](https://www.gnu.org/software/stow/)
-and installed via [Homebrew](https://brew.sh). Tested on macOS Sequoia.
+and installed via [Homebrew](https://brew.sh). Tested on macOS Sequoia and Tahoe.
 
 ## Requirements
 
