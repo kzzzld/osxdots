@@ -48,3 +48,5 @@
 	br = branch
 	lg = log --oneline --graph --decorate
 	last = log -1 HEAD
+[credential]
+	helper = store
