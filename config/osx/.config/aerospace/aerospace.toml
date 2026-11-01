@@ -8,7 +8,12 @@ enable-normalization-opposite-orientation-for-nested-containers = false
 on-focused-monitor-changed = ['move-mouse monitor-lazy-center']
 
 after-startup-command = [
-  'exec-and-forget borders active_color=0xff89b4fa inactive_color=0xff1e1e2e width=5.0'
+  'exec-and-forget borders active_color=0xff89b4fa inactive_color=0xff1e1e2e width=5.0',
+  'exec-and-forget sketchybar'
+]
+
+exec-on-workspace-change = ['/bin/bash', '-c',
+    'sketchybar --trigger aerospace_workspace_change FOCUSED_WORKSPACE=$AEROSPACE_FOCUSED_WORKSPACE'
 ]
 
 focus-follows-mouse.enabled = false
@@ -17,7 +22,11 @@ gaps.inner.horizontal = 15
 gaps.inner.vertical =   15
 gaps.outer.left =       15
 gaps.outer.bottom =     15
-gaps.outer.top =        15
+gaps.outer.top = [
+  { monitor."built-in" = 16 },
+  { monitor."main" = 49 },
+  49
+]
 gaps.outer.right =      15
 
 

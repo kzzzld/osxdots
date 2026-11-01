@@ -76,6 +76,8 @@ brew "zsh-you-should-use"
 brew "can1357/tap/omp", trusted: true
 # A window border system for macOS
 brew "felixkratz/formulae/borders"
+# Custom macOS statusbar with shell plugin, interaction and graph support
+brew "felixkratz/formulae/sketchybar"
 # AeroSpace is an i3-like tiling window manager for macOS
 cask "nikitabobko/tap/aerospace", trusted: true
 # XMPP client based on TigaseSwift library
